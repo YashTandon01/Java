@@ -1,5 +1,5 @@
 // print the largest of 2 numbers
-public class control {
+/*public class control {
     public static  void main(String[]args)
     {
      int a = 12;
@@ -14,4 +14,23 @@ public class control {
      }
     }
 
+}*/
+
+// CHECK WETHER THE NUMBER IS EVEN OR ODD
+import java.util.*;
+public class control {
+    public static  void main(String[]args)
+    {
+        Scanner sc = new Scanner(System.in);
+            int n = sc.nextInt();
+        if(n%2==0)
+        {
+            System.out.println("Even");
+        }
+        else
+        {
+           System.out.println("Odd");
+
+        }
+    }
 }
